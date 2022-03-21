@@ -2295,6 +2295,13 @@ ul {
   transform: scale(1);
 }
 
+.dropdown .dropdown-menu .dropdown-item:hover {
+  font-size: 20px;
+  padding: 8px 20px !important;
+  color: #ea5267 !important;
+  background-color: #fff;
+}
+
 @media (max-width: 991px) {
   /* line 137, /Applications/MAMP/htdocs/palash/cl/july 2019/july/195 Resume/195 resume html/sass/_menu.scss */
   .main_menu {
