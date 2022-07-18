@@ -2411,7 +2411,7 @@ ul {
 .banner_part {
   height: 1075px;
   position: relative;
-  background-image: url(../img/banner_bg_1.png);
+  background-image: url(../img/illustration/team.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right bottom;
@@ -2419,12 +2419,21 @@ ul {
   background-color: #0d0f5b;
 }
 
+@media (min-width: 992px) {
+  /* line 12, /Applications/MAMP/htdocs/palash/cl/july 2019/july/195 Resume/195 resume html/sass/_banner.scss */
+  .banner_hero_img {
+    display: none;
+  }
+}
+
+
 @media (max-width: 991px) {
   /* line 2, /Applications/MAMP/htdocs/palash/cl/july 2019/july/195 Resume/195 resume html/sass/_banner.scss */
   .banner_part {
     height: 650px;
     background-image: none;
   }
+
 }
 
 @media only screen and (min-width: 991px) and (max-width: 1200px) {
@@ -2432,6 +2441,7 @@ ul {
   .banner_part {
     height: 700px;
   }
+
 }
 
 /* line 18, /Applications/MAMP/htdocs/palash/cl/july 2019/july/195 Resume/195 resume html/sass/_banner.scss */
