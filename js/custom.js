@@ -64,8 +64,8 @@
     });
   }
 
-  var former = new Date(2019, 1, 2).getFullYear();
   var now = new Date().getFullYear();
+  var former = new Date(2021, 11, 10).getFullYear();
   var diff = now - former;
   document.getElementById("dynamic_date").innerHTML = diff;
 })(jQuery);

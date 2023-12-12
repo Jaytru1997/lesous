@@ -1,6 +1,6 @@
 <?php
 
-    $to = "support@lesoustechnology.com";
+    $to = "contact@lesous.ng";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
